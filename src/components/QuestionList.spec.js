@@ -11,11 +11,11 @@ describe('The Question list Component', () => {
 	afterAll(()=>{
 		console.log("after all");
 	});
-	it('Should display a list item', () => {
+	it.only('Should display a list item', () => {
 		console.log("first running");
 
 	});
-	it('Should display a list item', () => {
+	it.skip('Should display a list item', () => {
 		console.log("second running");
 	});
 });
